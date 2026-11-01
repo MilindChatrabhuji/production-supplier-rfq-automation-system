@@ -51,7 +51,7 @@ Expected Deployment Output:
 Total Upload: ~12 KiB / gzip: ~4 KiB
 Uploaded supplier-rfq-gateway (2.1 sec)
 Deployed supplier-rfq-gateway triggers (1.8 sec)
-  https://supplier-rfq-gateway.<your-subdomain>.workers.dev
+  https://supplier-rfq-gateway.example.workers.dev
 ```
 
 ---
