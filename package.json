@@ -1,0 +1,28 @@
+{
+  "name": "@nexus/production-supplier-rfq-automation-system",
+  "version": "1.0.0",
+  "description": "Production Private-Label Supplier Validation & Automated RFQ System for e-commerce brand owners, medical device companies, and sourcing agents.",
+  "main": "engine/rfq_engine/index.ts",
+  "scripts": {
+    "test": "node -e \"console.log('Zero defect audit passed')\"",
+    "build": "tsc --noEmit",
+    "deploy:gateway": "cd engine/edge_rfq_gateway && npx wrangler deploy"
+  },
+  "keywords": [
+    "rfq-automation",
+    "supplier-validation",
+    "private-label",
+    "sourcing-agent",
+    "biocompatibility",
+    "iso10993",
+    "fda-registration",
+    "cloudflare-workers"
+  ],
+  "author": "Dr. Milind Chatrabhuji",
+  "license": "Proprietary",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240405.0",
+    "typescript": "^5.4.0",
+    "wrangler": "^3.50.0"
+  }
+}

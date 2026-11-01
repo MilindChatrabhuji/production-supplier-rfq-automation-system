@@ -1,0 +1,12 @@
+name = "supplier-rfq-gateway"
+main = "worker.ts"
+compatibility_date = "2024-04-01"
+
+[vars]
+ENVIRONMENT = "production"
+WEBHOOK_SECRET = "sec_rfq_edge_live_2026"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nexus_rfq_production_db"
+database_id = "d1-rfq-cluster-live-way85"
